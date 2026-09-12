@@ -1,0 +1,14 @@
+zomato:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: CIFKOVD-RC42957
+      user: GOKULAKRISHNAN
+      authenticator: snowflake_jwt
+      private_key_path: /Users/gokulakrishnananandan/zomato-keys/rsa_key.p8
+      role: DBT_ROLE
+      database: ZOMATO
+      warehouse: ZOMATO_WH
+      schema: PUBLIC
+      threads: 4
